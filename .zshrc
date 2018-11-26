@@ -16,6 +16,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 # Load the theme.
 antigen theme Dalrik/oh-my-zsh-powerline-theme powerline
 
+export LC_ALL="en_US.UTF-8"
 path+=('/snap/bin')
 export PATH
 eval $(thefuck --alias)
